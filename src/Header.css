@@ -1,0 +1,19 @@
+
+  .header {
+    background-image: url('https://www.guiadasemana.com.br/contentFiles/system/pictures/2015/12/148951/original/logo.jpg'); /* Substitua pelo caminho da sua imagem */
+   
+    background-size: cover; /* Faz a imagem cobrir todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    height: 200px; /* Ajuste conforme necessário */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centraliza o título */
+    color: white; /* Cor do texto */
+    position: relative; /* Para posicionamento de outros elementos, se necessário */
+  }
+  
+  
+  .header-title {
+    margin: 0; /* Remove margem padrão do título */
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+  }

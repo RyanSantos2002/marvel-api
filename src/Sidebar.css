@@ -1,0 +1,20 @@
+/* src/Sidebar.css */
+.sidebar {
+    width: 200px; /* Largura da barra lateral */
+    background-color: #f4f4f4; /* Cor de fundo */
+    padding: 10px;
+  }
+  
+  .sidebar h2 {
+    margin: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin: 5px 0; /* Espaçamento entre os itens da lista */
+  }
+  

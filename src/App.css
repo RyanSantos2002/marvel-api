@@ -1,3 +1,4 @@
+/* src/App.css */
 .App {
   text-align: center;
 }
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.main-container {
+  display: flex; /* Para organizar a barra lateral e os cards */
+}
+
+/* Adicione qualquer outro estilo que você desejar */
+.cards-container {
+  display: flex; /* Define layout flexível */
+  flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha quando necessário */
+  justify-content: space-around; /* Distribui os cards de forma uniforme */
+  gap: 20px; /* Espaçamento entre os cards */
+  padding: 20px;
 }
